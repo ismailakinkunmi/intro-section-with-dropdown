@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+ 
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  <script src="./script.js" defer></script>
+
+</head>
+<body>
+
+  <div class="wrapper">
+    <header>
+      <div class="logo">
+        <img src="./images/logo.svg" alt="snap">
+      </div>
+
+      <div class="navbar">
+         <nav class="nav-links">
+          <ul>
+            <li><a href="">features</a> <img src="./images/icon-arrow-down.svg">
+              <div class="feature-sub-menu">
+                <ul>
+                  <li><img src="./images/icon-todo.svg">todo list</li>
+                  <li><img src="./images/icon-calendar.svg">calendar</li>
+                  <li><img src="./images/icon-reminders.svg">reminders</li>
+                  <li><img src="./images/icon-planning.svg">planning</li>
+                </ul>
+              </div>
+            
+            </li>
+            <li>
+              <a href="">company</a> <img src="./images/icon-arrow-down.svg" alt="">
+              <div class="company-sub-menu">
+                <ul>
+                  <li>history</li>
+                  <li>our team</li>
+                  <li>blog</li>
+                </ul>
+              </div>
+             </li>
+            <li><a href="">careers</a></li>
+            <li> <a href="">about</a></li>
+          </ul> 
+                                 
+         </nav>
+
+
+               
+        <div class="login-links">
+                <a href="">login</a>
+               <a href="">register</a>
+        </div>
+
+      </div>
+
+      <button class="hamburger">
+        <div class="bar"></div>
+      </button>
+
+      <div class="mobile-menu">
+        <nav class="nav-links">
+               <div class="">
+                <a href="">features</a>
+                <img src="./images/icon-arrow-down.svg" alt="">
+               </div>
+               <div class="">
+                <a href="">company</a>
+                <img src="./images/icon-arrow-down.svg" alt="">
+               </div>    
+      
+                <a href="">careers</a>
+                <a href="">about</a>
+        </nav>
+              
+       <div class="login-links">
+               <a href="">login</a>
+              <a href="">register</a>
+       </div>
+
+     </div>
+    
+    </header>
+    
+    <div class="hero">
+      <div class="image">
+        <img src="images/image-hero-mobile.png" alt="" class="mobile">
+        <img src="images/image-hero-desktop.png" alt="" class="desktop">
+      </div>
+
+      <div class="main-section">
+        <h3><span>Make</span> remote work</h3>
+        <p>  Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.</p>
+          <button type="button" class="learn-more">Learn more</button>
+          <div class="client-icons">
+            <img src="./images/client-databiz.svg" alt="databiz">
+            <img src="./images/client-audiophile.svg" alt="audiophile">
+            <img src="./images/client-meet.svg" alt="meet">
+            <img src="./images/client-maker.svg" alt="maker">
+          </div>
+      </div>
+
+
+
+    </div>
+  </div>
+
+
+</body>
+</html>
